@@ -25,7 +25,7 @@ Tab1Section:NewButton("Pulos Infinitos", "ativar pulos infinitos", function()
 game:GetService("UserInputService").JumpRequest:connect(function()
 
 	if InfiniteJumpEnabled then
-
+   if infinite
 		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
 
 	end
